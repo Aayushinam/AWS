@@ -11,54 +11,56 @@
     <title>AWS</title>
 </head>
 <body>
-    <div class="image"><img src="image1.png"></div>
-    <div class="text">
-        <p><b>AWS:</b> AWS is a cloud provider that provides infrastructure as a service. AWS is the world's most comprehensive and broadly adopted cloud platform, offering over 200 featured services from data centers globally.</p><br>
-        <p><b>PUBLIC CLOUD:</b>The services which are accessed by everyone like AWS.</p><br>
-        <p><b>PRIVATE CLOUD:</b>The services which are accessed by the organization like an oracle.</p> <br>
-        <p> <b>HYBRID CLOUD:</b>The combination of public and private cloud.</p> <br>
-        <p> <b>VERSIONING:</b>Versioning is like a backup tool, versioning is not enabled on the bucket.</p><br>
-        <p> <b>VIRTUALIZATION:</b>Virtualization means creating a   virtual version of a device or resources.</p><br>
-        <p><b>VM:</b>The virtual machine is the virtualization/ emulation of a computer system.</p><br>
-        <p> <b>EC2:</b>Elastic compute cloud is a virtual server in amazon. Ec2 is regional.</p><br>
-        <p><b>REGION:</b>It is a geographical area. A region has multiple data centers or availability zones.</p><br>
-        <p><b>AVAILABILITY ZONE:</b>AZ is simply a data center. AZ can communicate with each other.</p><br>
-        <p><b>KEYPAIR:</b>Keypair is used to retrieve the password of the ec2 instance</p><br>
-        <p><b>SECURITY GROUP:</b> SG acts as a firewall to secure ec2 instances.</p><br>
-        <p><b>TYPES OF IPs:</b></p>
-        <p><b>PUBLIC IPs:</b> which are accessed from the internet.</p>
-        <p><b>PRIVATE IPs:</b> which can’t be accessed from the internet</p>
-        <p><b>ELASTIC IPs:</b> An Elastic IP address is a static public IPv4 address associated with your AWS account in a specific Region.</p>
-        <p><b>LOAD BALANCER:</b> We use the load balancer to distribute the traffic to the server.</p><br>
-        <p><b>ELASTIC BEANSTALK:</b> EBS is used for easy and quick deployment of applications in AWS. You have full control of the ec2 instance which are launched by the beanstalk.</p><br>
-        <p><b>LAMBDA:</b> AWS Lambda is a compute service that let you run the code without provisioning or managing servers</p><br>
-        <p><b>VIRTUAL PRIVATE CLOUD:</b> VPC is a virtual network of data centers inside AWS for one client.
-        </p><br>
-        <p><b>PUBLIC SUBNET:</b>If subnet traffic is routed to an internet gateway is known as a public subnet.</p><br>
-        <p><b>PRIVATE SUBNET:</b>If subnet traffic doesn’t route to an internet gateway is known as a private subnet.</p><br>
-        <p><b>INTERNET GATEWAY:</b>An internet gateway is a horizontally scaled, redundant, and highly available VPC component that allows communication between your VPC and the internet</p><br>
-        <p><b>NAT GATEWAY (Network Address Translation service ):</b>You can use a NAT gateway so that instances in a private subnet can connect to services outside your VPC but external services cannot initiate a connection with those instances.</p><br>
-        <p><b>AUTOSCALING:</b> Create a group of ec2 instances that scale up or down depending on the condition you set.</p><br>
-        <p><b>AWS STORAGE:</b><br><ol><li>Simple storage service (s3)</li>
-            <li>Elastic file system (EFS)</li>
-            <li>Elastic block storage (EBS)</li>
-            <li>Glacier</li>
-            <li>Snowball</li></ol></p><br>
-        <p><b>SIMPLE STORAGE SERVICE:</b> S3 is storage for the internet, It has a simple web service interface for simple storing & retrieving of any amount of data, anytime from anywhere on the internet.</p><br>
-        <p><b>ELASTIC FILE SYSTEM:</b> EFS can be mounted multiple ec2 instances at the same time across multiple AZs.</p><br>
-        <p><b>ELASTIC BLOCK STORAGE:</b> You can attach multiple volumes to the ec2 instance. Volume can be attached & detached.</p><br>
-        <p><b>SNAPSHOT:</b> The backup of the volume is called a snapshot.</p><br>
-        <p><b>IDENTITY AND ACCESS MANAGEMENT (IAM):</b> You can control the entity AWS account using IAM by giving proper permissions to the IAM user.</p><br>
-        <p><b>IAM GROUP:</b> Collection of IAM users.</p><br>
-        <p><b>IAM ROLES:</b> Temporary access without credentials.</p><br>
-
-        <p><b>CLOUD FONT:</b> CloudFront is a web service that speeds up the distribution of your static and dynamic web content, such as .html, .css, .js, and image files, to your users.</p><br>
-
-        <p><b>CLOUDWATCH:</b> CloudWatch is a monitoring and observability service built for DevOps engineers, developers, site reliability engineers (SREs), IT managers, and product owners.</p><br>
-        <p><b>RELATIONAL DATABASE:</b> RDS is not a database. It is a database service. RDS is a data structure that allows you to link information from the different tables of different types of data buckets</p><br>
-        <p><b>SIMPLE QUEUE SERVICE:</b> SQS is a fully managed message queuing service that enables you to decouple and scale microservices, distributed systems, and serverless applications.</p><br>
-        <p><b>SIMPLE NOTIFICATION SERVICE: </b>SNS is a fully managed messaging service for both application-to-application (A2A) and application-to-person (A2P) communication.</p><br>
-        <p><b>ROUTE 53:</b> Amazon Route 53 is a highly available and scalable cloud Domain Name System (DNS) web service.</p>
+    <div class="main">
+        <div class="image"><img src="image1.png"></div>
+        <div class="text">
+            <p><b>AWS:</b> AWS is a cloud provider that provides infrastructure as a service. AWS is the world's most comprehensive and broadly adopted cloud platform, offering over 200 featured services from data centers globally.</p><br>
+            <p><b>PUBLIC CLOUD:</b>The services which are accessed by everyone like AWS.</p><br>
+            <p><b>PRIVATE CLOUD:</b>The services which are accessed by the organization like an oracle.</p> <br>
+            <p> <b>HYBRID CLOUD:</b>The combination of public and private cloud.</p> <br>
+            <p> <b>VERSIONING:</b>Versioning is like a backup tool, versioning is not enabled on the bucket.</p><br>
+            <p> <b>VIRTUALIZATION:</b>Virtualization means creating a   virtual version of a device or resources.</p><br>
+            <p><b>VM:</b>The virtual machine is the virtualization/ emulation of a computer system.</p><br>
+            <p> <b>EC2:</b>Elastic compute cloud is a virtual server in amazon. Ec2 is regional.</p><br>
+            <p><b>REGION:</b>It is a geographical area. A region has multiple data centers or availability zones.</p><br>
+            <p><b>AVAILABILITY ZONE:</b>AZ is simply a data center. AZ can communicate with each other.</p><br>
+            <p><b>KEYPAIR:</b>Keypair is used to retrieve the password of the ec2 instance</p><br>
+            <p><b>SECURITY GROUP:</b> SG acts as a firewall to secure ec2 instances.</p><br>
+            <p><b>TYPES OF IPs:</b></p>
+            <p><b>PUBLIC IPs:</b> which are accessed from the internet.</p>
+            <p><b>PRIVATE IPs:</b> which can’t be accessed from the internet</p>
+            <p><b>ELASTIC IPs:</b> An Elastic IP address is a static public IPv4 address associated with your AWS account in a specific Region.</p>
+            <p><b>LOAD BALANCER:</b> We use the load balancer to distribute the traffic to the server.</p><br>
+            <p><b>ELASTIC BEANSTALK:</b> EBS is used for easy and quick deployment of applications in AWS. You have full control of the ec2 instance which are launched by the beanstalk.</p><br>
+            <p><b>LAMBDA:</b> AWS Lambda is a compute service that let you run the code without provisioning or managing servers</p><br>
+            <p><b>VIRTUAL PRIVATE CLOUD:</b> VPC is a virtual network of data centers inside AWS for one client.
+            </p><br>
+            <p><b>PUBLIC SUBNET:</b>If subnet traffic is routed to an internet gateway is known as a public subnet.</p><br>
+            <p><b>PRIVATE SUBNET:</b>If subnet traffic doesn’t route to an internet gateway is known as a private subnet.</p><br>
+            <p><b>INTERNET GATEWAY:</b>An internet gateway is a horizontally scaled, redundant, and highly available VPC component that allows communication between your VPC and the internet</p><br>
+            <p><b>NAT GATEWAY (Network Address Translation service ):</b>You can use a NAT gateway so that instances in a private subnet can connect to services outside your VPC but external services cannot initiate a connection with those instances.</p><br>
+            <p><b>AUTOSCALING:</b> Create a group of ec2 instances that scale up or down depending on the condition you set.</p><br>
+            <p><b>AWS STORAGE:</b><br><ol><li>Simple storage service (s3)</li>
+                <li>Elastic file system (EFS)</li>
+                <li>Elastic block storage (EBS)</li>
+                <li>Glacier</li>
+                <li>Snowball</li></ol></p><br>
+            <p><b>SIMPLE STORAGE SERVICE:</b> S3 is storage for the internet, It has a simple web service interface for simple storing & retrieving of any amount of data, anytime from anywhere on the internet.</p><br>
+            <p><b>ELASTIC FILE SYSTEM:</b> EFS can be mounted multiple ec2 instances at the same time across multiple AZs.</p><br>
+            <p><b>ELASTIC BLOCK STORAGE:</b> You can attach multiple volumes to the ec2 instance. Volume can be attached & detached.</p><br>
+            <p><b>SNAPSHOT:</b> The backup of the volume is called a snapshot.</p><br>
+            <p><b>IDENTITY AND ACCESS MANAGEMENT (IAM):</b> You can control the entity AWS account using IAM by giving proper permissions to the IAM user.</p><br>
+            <p><b>IAM GROUP:</b> Collection of IAM users.</p><br>
+            <p><b>IAM ROLES:</b> Temporary access without credentials.</p><br>
+    
+            <p><b>CLOUD FONT:</b> CloudFront is a web service that speeds up the distribution of your static and dynamic web content, such as .html, .css, .js, and image files, to your users.</p><br>
+    
+            <p><b>CLOUDWATCH:</b> CloudWatch is a monitoring and observability service built for DevOps engineers, developers, site reliability engineers (SREs), IT managers, and product owners.</p><br>
+            <p><b>RELATIONAL DATABASE:</b> RDS is not a database. It is a database service. RDS is a data structure that allows you to link information from the different tables of different types of data buckets</p><br>
+            <p><b>SIMPLE QUEUE SERVICE:</b> SQS is a fully managed message queuing service that enables you to decouple and scale microservices, distributed systems, and serverless applications.</p><br>
+            <p><b>SIMPLE NOTIFICATION SERVICE: </b>SNS is a fully managed messaging service for both application-to-application (A2A) and application-to-person (A2P) communication.</p><br>
+            <p><b>ROUTE 53:</b> Amazon Route 53 is a highly available and scalable cloud Domain Name System (DNS) web service.</p>
+        </div>
     </div>
 </body>
 </html>

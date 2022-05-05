@@ -20,6 +20,9 @@
 .text ol{
     padding-left: 170px;
 }
+.main{
+    border: 10px solid #232F3E;
+}
 @media screen and (max-width: 450px) {
     .text{
         font-size: 16px;
