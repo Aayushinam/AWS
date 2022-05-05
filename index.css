@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+    
+.image img{
+    width: 100%;
+}
+.text{
+    font-size: 22px;
+    margin: 5%;
+}
+.text b{
+    color: #232F3E;
+    font-size: 22px;
+    float: left;
+    padding-right: 6px;
+}
+.text ol{
+    padding-left: 170px;
+}
+@media screen and (max-width: 450px) {
+    .text{
+        font-size: 16px;
+    }
+    .text b{
+        font-size: 16px;
+    }
+}
